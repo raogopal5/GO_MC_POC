@@ -1,4 +1,4 @@
-module github.com/raogopal5/GO_MC_POC/src/movie-microservice
+module github.com/raogopal5/GO_MC_POC
 
 go 1.21.5
 
@@ -34,6 +34,7 @@ require (
 	github.com/natefinch/lumberjack v2.0.0+incompatible // indirect
 	github.com/pelletier/go-toml/v2 v2.1.1 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
+	github.com/swaggo/files v1.0.1 // indirect
 	github.com/swaggo/gin-swagger v1.6.0 // indirect
 	github.com/swaggo/swag v1.16.2 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect

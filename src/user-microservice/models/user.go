@@ -8,7 +8,7 @@ package models
 import (
 	"errors"
 
-	"../common"
+	"github.com/raogopal5/GO_MC_POC/src/movie-microservice/common"
 	"gopkg.in/mgo.v2/bson"
 )
 

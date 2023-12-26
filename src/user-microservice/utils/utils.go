@@ -9,8 +9,8 @@ import (
 	"errors"
 	"time"
 
-	"../common"
 	jwt_lib "github.com/dgrijalva/jwt-go"
+	"github.com/raogopal5/GO_MC_POC/src/movie-microservice/common"
 	"gopkg.in/mgo.v2/bson"
 )
 

@@ -8,8 +8,8 @@ package databases
 import (
 	"time"
 
-	"../common"
-	"../models"
+	"github.com/raogopal5/GO_MC_POC/src/user-microservice/common"
+	"github.com/raogopal5/GO_MC_POC/src/user-microservice/models"
 	log "github.com/sirupsen/logrus"
 	mgo "gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"

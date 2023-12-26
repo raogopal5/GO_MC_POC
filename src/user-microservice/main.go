@@ -9,15 +9,15 @@ import (
 	"io"
 	"os"
 
-	"./common"
-	"./controllers"
-	"./databases"
 	"github.com/gin-gonic/contrib/jwt"
 	"github.com/gin-gonic/gin"
+	"github.com/raogopal5/GO_MC_POC/src/user-microservice/common"
+	"github.com/raogopal5/GO_MC_POC/src/user-microservice/controllers"
+	"github.com/raogopal5/GO_MC_POC/src/user-microservice/databases"
 
-	_ "./docs"
-	"github.com/swaggo/gin-swagger"
-	"github.com/swaggo/gin-swagger/swaggerFiles"
+	_ "github.com/raogopal5/GO_MC_POC/src/user-microservice/docs"
+	swaggerfiles "github.com/swaggo/files"
+	ginSwagger "github.com/swaggo/gin-swagger"
 )
 
 // Main manages main golang application
@@ -98,7 +98,7 @@ func main() {
 		}
 	}
 
-	m.router.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
+	m.router.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerfiles.Handler))
 
 	m.router.Run(common.Config.Port)
 }

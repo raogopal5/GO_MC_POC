@@ -55,7 +55,7 @@ Guideline: https://github.com/swaggo/swag
 $ git clone https://github.com/raogopal5/Go_Microservice_POC.git
 ```
 and import all by below command
-    Creat mod file by this command to run main project file go mod init GO_MICROSERVICE_POC
+    Creat mod file by this command to run main project file go mod init GO_MC_POC
 	go get -u github.com/natefinch/lumberjack
 	go get -u github.com/sirupsen/logrus
 	go get -u github.com/dgrijalva/jwt-go

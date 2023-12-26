@@ -37,3 +37,5 @@
 {"level":"debug","msg":"[ERROR]: Post http://107.113.53.47:9006/api/v1/login: dial tcp 107.113.53.47:9006: connect: connection refused","time":"2018-10-02T12:50:06Z"}
 {"level":"debug","msg":"[ERROR]: Post http://107.113.53.47:9006/api/v1/login: dial tcp 107.113.53.47:9006: connect: connection refused","time":"2018-10-02T12:50:06Z"}
 {"level":"debug","msg":"[ERROR]: Post http://107.113.53.47:9006/api/v1/login: dial tcp 107.113.53.47:9006: connect: connection refused","time":"2018-10-02T12:50:07Z"}
+{"level":"debug","msg":"Can't connect to mongo, go error: no reachable servers","time":"2023-12-26T21:02:10+05:30"}
+{"level":"debug","msg":"Can't connect to mongo, go error: no reachable servers","time":"2023-12-26T21:10:43+05:30"}
